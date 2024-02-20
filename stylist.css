@@ -23,6 +23,11 @@ h2 {
     margin-bottom: 26px;
 }
 
+.input-section {
+    display: flex;
+    align-items: center;
+}
+
 input {
     background: rgba(255, 255, 255, 0.25);
     border: rgba(255, 255, 255, 0.2);
@@ -38,6 +43,15 @@ input {
 
 .input-min {
     margin-right: 62px;
+}
+
+p {
+    color: #FFFFFF;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    margin-left: 25px;
+    font-size: 24px;
+    text-align: justify;
 }
 
 button {
@@ -63,11 +77,17 @@ button:active {
 
 .arrow {
     margin-top: 25px;
+    margin-left: 22px;
+}
+
+.numero-sorteado {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
 
 .number-random {
     color: #FFFFFF;
     margin-top: 10px;
     font-size: 38px;
-
 }

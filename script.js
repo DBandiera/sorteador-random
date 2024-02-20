@@ -6,12 +6,19 @@ function generateNumber() {
 
     console.log(min, max)
 
-    const result = Math.floor(Math.random() * (max - min + 1)) + min;
+    if (max > min + 19) {
 
-    console.log(result)
+        const result = Math.floor(Math.random() * (max - min + 1)) + min;
 
-    numberRandom.innerHTML = result
-    
+        numberRandom.innerHTML = result
+
+    } else {
+
+        numberRandom.innerHTML = ("O Valor maximo tem que ser maior que " + (min + 20) )
+        /*alert("O Valor maximo tem que ser maior que " + min)*/
+    }
+
+
 }
 
 

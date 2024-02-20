@@ -1,30 +1,44 @@
 <!DOCTYPE html>
 <html lang="pt-BR">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="./stylist.css">
     <title>Sorteador Randon</title>
 </head>
+
 <body>
 
     <img src="./assets/logo.png" alt="">
 
     <h2>Sortear um Número</h2>
 
-    <div>
-        <input type="number" placeholder="entre" class="input-min">
-        <input type="number" placeholder="e" class="input-max">
-    </div>
+    <section class="input-section">
+        <div>
+            <p>Valor Mínimo:</p>
+            <input type="number" placeholder="entre" class="input-min">
+        </div>
+
+        <div>
+            <p>Valor Máximo:</p>
+            <input type="number" placeholder="e" class="input-max">
+        </div>
+    </section>
+
 
     <button onclick="generateNumber()">Sortear</button>
 
-    <img src="./assets/arrow.png" alt="seta-para-baixo" class="arrow">
+    <section class="numero-sorteado">
 
-    <div>
-        <p class="number-random">Numero Sorteado</p>
-    </div>
-    
+        <img src="./assets/arrow.png" alt="seta-para-baixo" class="arrow">
+
+        <div>
+            <p class="number-random">Numero Sorteado</p>
+        </div>
+
+    </section>
+
 </body>
 
 <script src="./script.js"></script>
