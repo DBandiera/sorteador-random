@@ -41,6 +41,10 @@ input {
     opacity: .7;
 }
 
+input::-webkit-inner-spin-button {
+    -webkit-appearance: none;
+}
+
 .input-min {
     margin-right: 62px;
 }
